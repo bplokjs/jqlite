@@ -1,0 +1,37 @@
+{
+    "name": "nil-jqlite",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node build/start",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nil-helpers/jqlite.git"
+    },
+    "files": [
+        "*.md",
+        "lib"
+    ],
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/nil-helpers/jqlite/issues"
+    },
+    "homepage": "https://github.com/nil-helpers/jqlite#readme",
+    "dependencies": {
+        "nil-dom-helpers": "^1.1.0"
+    },
+    "devDependencies": {
+        "jasmine-core": "^3.2.1",
+        "karma": "^3.0.0",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-jasmine": "^1.1.2",
+        "karma-webpack": "^3.0.2",
+        "transform-es": "^1.4.1",
+        "webpack": "^4.17.2"
+    }
+}
