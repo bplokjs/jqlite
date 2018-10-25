@@ -1,5 +1,5 @@
 {
-    "name": "nil-jqlite",
+    "name": "bplokjs-jqlite",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -9,21 +9,25 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/nil-helpers/jqlite.git"
+        "url": "git+https://github.com/bplokjs/jqlite.git"
     },
     "files": [
         "*.md",
         "lib"
     ],
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "jqlite",
+        "jquery",
+        "dom"
+    ],
+    "author": "nobo.zhou@foxmail.com",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/nil-helpers/jqlite/issues"
+        "url": "https://github.com/bplokjs/jqlite/issues"
     },
-    "homepage": "https://github.com/nil-helpers/jqlite#readme",
+    "homepage": "https://github.com/bplokjs/jqlite#readme",
     "dependencies": {
-        "nil-dom-helpers": "^1.1.0"
+        "bplokjs-dom-utils": "^1.0.0"
     },
     "devDependencies": {
         "jasmine-core": "^3.2.1",

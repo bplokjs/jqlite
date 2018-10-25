@@ -19,25 +19,25 @@ import {
     extend,
 } from './selector/utils';
 
-import domReady from 'nil-dom-helpers/domReady';
+import domReady from 'bplokjs-dom-utils/domReady';
 
 import parseHTML from './selector/parseHTML';
 import find from './selector/find';
 
-import offset from 'nil-dom-helpers/offset';
+import offset from 'bplokjs-dom-utils/offset';
 import position from './position';
-import offsetParent from 'nil-dom-helpers/offsetParent';
-import matches from 'nil-dom-helpers/matches';
+import offsetParent from 'bplokjs-dom-utils/offsetParent';
+import matches from 'bplokjs-dom-utils/matches';
 import {
     hasClass,
     addClass,
     removeClass,
     toggleClass
-} from 'nil-dom-helpers/classes';
+} from 'bplokjs-dom-utils/classes';
 
-import closest from 'nil-dom-helpers/closest';
+import closest from 'bplokjs-dom-utils/closest';
 
-import css from 'nil-dom-helpers/css';
+import css from 'bplokjs-dom-utils/css';
 
 const rquickExpr = /^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]+))$/;
 const BOOLEAN_ATTR = {};

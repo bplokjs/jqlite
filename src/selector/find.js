@@ -1,4 +1,4 @@
-import matchesSelector from 'nil-dom-helpers/matches';
+import matchesSelector from 'bplokjs-dom-utils/matches';
 import {
     merge,
     NODE_TYPE_ELEMENT,

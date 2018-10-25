@@ -1,5 +1,5 @@
-import css from 'nil-dom-helpers/css';
-import getOffset from 'nil-dom-helpers/offset/getOffset';
+import css from 'bplokjs-dom-utils/css';
+import getOffset from 'bplokjs-dom-utils/offset/getOffset';
 
 export default function position(elem) {
     var offsetParent, offset, doc,
