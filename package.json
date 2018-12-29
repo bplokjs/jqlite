@@ -1,6 +1,6 @@
 {
     "name": "bplokjs-jqlite",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -27,7 +27,7 @@
     },
     "homepage": "https://github.com/bplokjs/jqlite#readme",
     "dependencies": {
-        "bplokjs-dom-utils": "^1.0.2"
+        "bplokjs-dom-utils": "^1.0.5"
     },
     "devDependencies": {
         "jasmine-core": "^3.2.1",
