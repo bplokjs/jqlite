@@ -1,10 +1,13 @@
 {
     "name": "bplokjs-jqlite",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "",
     "main": "index.js",
+    "module": "esm/index.js",
     "scripts": {
-        "start": "node build/start",
+        "start": "transform-es src -d lib -w -c",
+        "cjs": "transform-es src -d lib -c",
+        "esm": "transform-es src -d esm -t esm -c",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -13,6 +16,8 @@
     },
     "files": [
         "*.md",
+        "*.js",
+        "esm",
         "lib"
     ],
     "keywords": [
@@ -27,21 +32,25 @@
     },
     "homepage": "https://github.com/bplokjs/jqlite#readme",
     "dependencies": {
-        "@babel/runtime": "^7.2.0",
-        "@babel/runtime-corejs2": "^7.2.0",
-        "bplokjs-dom-utils": "^1.0.7"
+        "@babel/runtime": "^7.6.3",
+        "bplokjs-dom-utils": "^1.1.1"
     },
     "devDependencies": {
-        "@babel/plugin-transform-modules-amd": "^7.2.0",
-        "@babel/plugin-transform-modules-commonjs": "^7.2.0",
-        "@babel/plugin-transform-modules-systemjs": "^7.2.0",
-        "@babel/plugin-transform-modules-umd": "^7.2.0",
-        "jasmine-core": "^3.2.1",
-        "karma": "^3.0.0",
+        "jasmine-core": "^3.5.0",
+        "karma": "^3.1.4",
         "karma-chrome-launcher": "^2.2.0",
         "karma-jasmine": "^1.1.2",
-        "karma-webpack": "^3.0.2",
-        "transform-es": "^2.2.10",
-        "webpack": "^4.17.2"
-    }
+        "karma-webpack": "^3.0.5",
+        "transform-es": "^3.3.1",
+        "webpack": "^4.41.2"
+    },
+    "browserslist": [
+        ">= .25%",
+        "not dead",
+        "not op_mini all",
+        "not Android 4.4.3-4.4.4",
+        "not ios_saf < 10",
+        "not Chrome < 50",
+        "firefox ESR"
+    ]
 }
